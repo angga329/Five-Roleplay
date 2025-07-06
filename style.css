@@ -142,73 +142,32 @@ footer {
   color: #777;
 }
 
-/* Donasi Section */
-.donasi {
-  padding: 60px 20px;
-  background: #121212;
-  text-align: center;
-}
-
-.donasi-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #00ffff20;
+.donasi-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
   border-radius: 16px;
-  padding: 30px;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 0 20px #00ffff15;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
-.donasi-container h2 {
-  color: #00ffff;
-  margin-bottom: 10px;
-}
-
-.donasi-container p {
-  color: #ccc;
-  margin-bottom: 20px;
-}
-
-.qris {
-  width: 180px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00ffff50;
-}
-
-.form-donasi {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.form-donasi input,
-.form-donasi textarea {
-  padding: 12px 16px;
+.donasi-form input,
+.donasi-form select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
   border: none;
-  border-radius: 10px;
+  font-size: 16px;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  font-size: 1rem;
+  color: white;
 }
 
-.form-donasi input::placeholder,
-.form-donasi textarea::placeholder {
-  color: #aaa;
+.donasi-form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
 }
 
-.form-donasi button {
-  background: #00ffff;
-  color: #000;
-  font-weight: bold;
-  padding: 12px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.form-donasi button:hover {
-  background: #00cccc;
-}
